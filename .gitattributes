@@ -1,0 +1,4 @@
+*.h linguist-language=objective-c
+*.m linguist-language=objective-c
+*.md linguist-language=objective-c
+*.podspec linguist-language=objective-c
