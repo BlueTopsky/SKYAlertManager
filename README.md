@@ -1,0 +1,2 @@
+# SKYAlertManager
+UIAlertController的简易封装
