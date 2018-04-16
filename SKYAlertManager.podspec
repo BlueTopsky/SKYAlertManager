@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SKYAlertManager"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "UIAlertController的简易封装."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/BlueTopsky/SKYAlertManager.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/BlueTopsky/SKYAlertManager.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
