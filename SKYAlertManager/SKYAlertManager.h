@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-//点击按钮的回调，取消按钮的index为0；其它按钮的index按照添加的顺序从1开始递增
+//点击按钮的回调，取消按钮的index为0；其它按钮的index按照添加的顺序从1开始递增（即使没有取消按钮也是从1开始递增）
 typedef void (^AlertIndexBlock) (NSUInteger index);
 
 @interface SKYAlertManager : NSObject
