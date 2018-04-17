@@ -22,7 +22,7 @@ typedef void (^AlertIndexBlock) (NSUInteger index);
 //便捷创建方法（无按钮）
 + (void)showAlertFromViewController:(UIViewController *)viewController Title:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)style;
 
-//推出弹窗的视图控制器，为空则默认为当前最顶层视图控制器
+//便捷创建方法（只有取消按钮）
 + (void)showAlertFromViewController:(UIViewController *)viewController Title:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)style cancleTitle:(NSString *)cancleTitle action:(AlertIndexBlock)alertIndexBlock;
 
 //便捷创建方法（没有取消按钮，但有其它按钮）
